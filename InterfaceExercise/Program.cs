@@ -6,6 +6,24 @@ namespace InterfaceExercise
     {
         static void Main(string[] args)
         {
+            Car car1 = new Car()
+            {
+                Color = "Blue",
+                HasRadio = true,
+            };
+
+            Truck truck1 = new Truck()
+            {
+                Name = "Ford",
+                Is4WheelDrive = true,
+            };
+
+            SUV suv1 = new SUV()
+            {
+                IsDrivable = false,
+                TopSpeed = 0,
+            };
+
             //TODO Be sure to follow BEST PRACTICES when creating classes and interfaces
 
             //Create 2 Interfaces called IVehicle & ICompany
